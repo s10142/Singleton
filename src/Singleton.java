@@ -24,6 +24,7 @@ public final class Singleton
     {
 		return a;
     }
+ 
     public void set(String b)
     {
     	a=b;
