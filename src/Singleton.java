@@ -1,7 +1,7 @@
 public class Singleton 
 {
  
-    private static volatile Singleton instance = null;
+    private static Singleton instance = null;
  
     public static Singleton getInstance()
     {
@@ -29,5 +29,6 @@ public class Singleton
     	a=b;
     }
     
+    private Singleton() {};
  
 }

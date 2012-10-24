@@ -12,9 +12,13 @@ public class Main
 		
 		System.out.println(s1.get());
 		
-		Singleton s2 = new Singleton();
-		
+		Singleton s2 = Singleton.getInstance();
+				
 		System.out.println(s2.get());
+		
+		System.out.println(s1);
+		
+		System.out.println(s2);
 		
 	}
 
